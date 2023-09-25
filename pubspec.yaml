@@ -1,0 +1,23 @@
+name: belajar_dart_application
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.2
+
+publish_to: none
+
+dependencies:
+  # with pub dev
+  belajar_dart_library: 1.5.0
+
+  #  with git
+  #  belajar_dart_library:
+  #    git:
+  #      url: git@github.com:boysmtv/boys-courses-udemy-dart-library.git
+  #      ref: 1.5.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
